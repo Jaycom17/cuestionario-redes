@@ -1,0 +1,149 @@
+--------------------CAPÍTULO 1--------------------
+#Punto 1:
+    Consumir plataformas de streaming
+    Jugar videojuegos
+    Redes sociales
+    Compras en línea
+    Realizar cursos online
+
+#Punto 2:
+    Factores externos: 
+        Son los factores relacionados con la calidad de la red, la capacidad que esta tiene o temas relacionados con su arquitectura.
+    Factores internos: 
+        Factores relacionados con la información enviada a través de la red, el tamaño de la información y de más factores relacionados con la misma. 
+
+#Punto 3:
+    Reglas: 
+        Los protocolos que definen cómo se realiza el transporte de información.
+    Medio: 
+        Aquellos artefactos que dan la capacidad de compartir la información, por ejemplo por medio de cables o de forma inalámbrica.
+    Mensajes: 
+        Aquella información que va a ser transmitida en la red.
+    Dispositivos: 
+        Elementos tecnológicos con conexión a la red que realizan el envío o recepción de información.
+
+#Punto 4:
+    ¿Qué son los datos? 
+        Son la información que se mueve por la red.
+
+    ¿Qué es una red de datos? 
+        Infraestructura que permite la transmisión de datos.
+
+    ¿Qué entiende por arquitectura de red?
+        Los servicios y dispositivos en una red.
+
+    ¿Qué es una red convergente?
+        Una red en la cual convergen distintos servicios, Ejemplo: en internet converge la telefonía, el streaming, etc.
+
+#Punto 5:
+    Tolerante a fallas:
+        Ante los fallos que se puedan presentar el sistema debe seguir funcionando.
+        Ejemplo: 
+            La implementación de rutas de respaldo en un protocolo de enrutamiento dinámico, como Open Shortest Path First (OSPF), donde se establecen rutas alternativas en caso de que la ruta principal falle
+
+    Escalabilidad:
+        El sistema debe poder expandirse sin tener fallos.
+        Ejemplo: 
+            El diseño de una red utilizando tecnologías como Virtual LANs (VLANs) para segmentar la red y facilitar la expansión sin afectar toda la infraestructura.
+
+    Calidad del servicio:
+        Se debe garantizar la calidad del servicio, que se proporcionen datos correctos, rápido, etc.
+        Ejemplo: 
+            La configuración de políticas de QoS para priorizar el tráfico de voz sobre el tráfico de datos en una red VoIP (Voz sobre Protocolo de Internet).
+    Seguridad:
+        La seguridad en una arquitectura de red implica la implementación de medidas para proteger la integridad, confidencialidad y disponibilidad de los datos.
+        Ejemplo: 
+            El uso de Virtual Private Networks (VPNs) para garantizar la seguridad de las comunicaciones a través de una red pública, permitiendo la conexión segura de usuarios remotos a la red corporativa.
+
+#Punto 6:
+    Redes Orientadas a Conexión:
+        Las redes orientadas a conexión establecen una conexión antes de la transmisión de datos, implicando un proceso de establecimiento y liberación. Ejemplos incluyen TCP en el modelo TCP/IP, proporcionando confiabilidad para transferencias de archivos y comunicaciones en tiempo real.
+
+    Redes No Orientadas a Conexión:
+        Las redes no orientadas a conexión transmiten datos de manera independiente sin conexión previa, como IP en el modelo TCP/IP. Este enfoque es eficiente en overhead y adecuado para aplicaciones donde la eficiencia es crucial, como la transmisión de video en tiempo real.
+
+#Punto 7:
+    Calidad del servicio: 
+        Capacidad de la red para proporcionar un rendimiento consistente y predecible para diferentes tipos de tráfico y servicios.
+
+    Para mantener una buena calidad de servicio se debe de implementar y garantizar las características de arquitectura de red.
+
+#Punto 8:
+    Consistencia: 
+        La QoS asegura un rendimiento constante para aplicaciones críticas.
+    Priorización: 
+        Permite dar prioridad al tráfico esencial, optimizando recursos.
+    Experiencia del Usuario: 
+        Mejora la satisfacción al evitar interrupciones y retrasos.
+    Adaptabilidad: 
+        Ajusta la red a diferentes requisitos de aplicaciones.
+    Implementación Tecnológica: 
+        Facilita la adopción exitosa de nuevas tecnologías.
+
+#Punto 9:
+    Proveedores de Internet de Nivel-1 (Tier-1):
+        Infraestructura: 
+            Red troncal global abarcando múltiples continentes.
+        Alcance: 
+            Operan a escala mundial y tienen conexiones directas con otros proveedores de Nivel-1.
+        Relaciones Comerciales: 
+            No compran servicios de tránsito; intercambian tráfico mediante acuerdos de peering directo.
+
+    Proveedores de Internet de Nivel-2 (Tier-2):
+        Infraestructura: 
+            Red regional o nacional.
+        Alcance: 
+            Cobertura geográfica más limitada que los proveedores de Nivel-1.
+        Relaciones Comerciales: 
+            Pueden comprar servicios de tránsito a proveedores de Nivel-1 y participar en acuerdos de peering con otros proveedores de Nivel-2.
+
+#Punto 10:
+    Tier-1:
+        AT&T: Global.
+        Verizon: Internacional.
+        NTT Communications: Red global extendida.
+        Sprint: Red internacional.
+
+    Tier-2:
+        Cogent: Global, Tier-2.
+        CenturyLink (Level 3): Antes Tier-1, status variado.
+        Telecom Italia Sparkle: Red global.
+        Tata Communications: Red internacional.
+
+    Proveedores de Internet en Colombia:
+        UNE EPM Telecomunicaciones (UNE):
+        Nacional.
+        ETB (Empresa de Telecomunicaciones de Bogotá): Otro proveedor nacional.
+        Colombia Telecomunicaciones (Movistar): Ofrece servicios a nivel nacional.
+        Emcali: Proveedor de servicios en Cali y regiones cercanas.
+
+#Punto 11:
+    Proveedores de Internet de Nivel-1 (Tier-1):
+        Conectividad Global: Infraestructura global con conexiones directas a otros Nivel-1.
+        Peering Directo: Intercambio directo de tráfico sin pagar por servicios de tránsito.
+        Redes Troncales Potentes: Capacidad para manejar grandes volúmenes de tráfico internacional.
+
+    Proveedores de Internet de Nivel-2 (Tier-2):
+        Conexión Regional/Nacional: Infraestructura sólida, con enfoque más local.
+        Complementan Conectividad Global: Compran servicios de tránsito a Nivel-1 para acceder a partes del internet.
+        Acuerdos de Peering Regional: Facilitan la transmisión de datos dentro de la misma región.
+
+#Punto 12:
+    Papel Crucial de los Proveedores de Internet:
+        - Equidad en el Acceso: Los reguladores deben promover políticas que aseguren la expansión de la conectividad a todas las áreas, independientemente de la ubicación.
+        - Eficiencia en el Servicio: Regulaciones que fomenten la competencia saludable y garanticen la calidad del servicio benefician a los usuarios.
+        - Innovación y Competencia: Un equilibrio entre competencia y regulación promueve la innovación y evita monopolios perjudiciales.
+        - Privacidad y Seguridad: Normativas claras sobre la protección de la privacidad y la seguridad de los datos refuerzan la confianza del usuario.
+        - Acceso a Contenido y Neutralidad de la Red: Regulaciones que aseguren la neutralidad de la red y eviten bloqueos arbitrarios favorecen un acceso equitativo y sin restricciones a la información.
+
+
+--------------------CAPÍTULO 2--------------------
+
+#Punto 1:
+#Punto 2:
+#Punto 3:
+#Punto 4:
+#Punto 5:
+#Punto 6:
+#Punto 7:
+#Punto 8:
